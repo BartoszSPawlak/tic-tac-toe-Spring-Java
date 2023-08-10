@@ -1,0 +1,21 @@
+#button1x1, #button1x2, #button1x3,#button2x1, #button2x2, #button2x3, #button3x1, #button3x2, #button3x3 {
+    border: 1px outset black;
+    background-color: gray;
+    height:50px;
+    width:50px;
+    cursor:pointer;
+    padding: 3px;
+}
+
+#button1x1:hover, #button1x2:hover, #button1x3:hover, #button2x1:hover, #button2x2:hover, #button2x3:hover, #button3x1:hover, #button3x2:hover, #button3x3:hover {
+    background-color: lightgrey;
+    color:white;
+}
+
+#game {
+    padding-top: 10px;
+}
+
+#row1, #row2, #row3 {
+    display: flex;
+}
